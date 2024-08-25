@@ -47,7 +47,7 @@ for i, button in enumerate (buttons):
 
 current_player = "X"
 winner = False
-label = tk.Label(root, text=f"Player{current_player}'s turn", font=("normal",16))
+label = tk.Label(root, text=f"Player{current_player}'s turn", font=("normal",20))
 
 label.grid(row=3, column=0, columnspan=3)
 
